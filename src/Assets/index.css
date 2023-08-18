@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GENERAL */
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* DOC */
+header{
+    background-image: url("/public/coffee1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+img{
+    width: auto;
+}
